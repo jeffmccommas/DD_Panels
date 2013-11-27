@@ -1,0 +1,79 @@
+
+body, html {
+    margin: 10px auto;
+    height: 100%;
+    width: 960px;
+    background: #555;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+}
+
+.container {
+    position: relative;
+    width: 960px;
+    background: #ccc;
+    border: 1px solid #000000;
+    height: 800px;
+
+}
+
+.panels ul{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 22%;
+    list-style: none;
+    z-index: 9;
+}
+.panels li {
+    margin: 0 20px 0 20px;
+    float: left;
+    display: inline-block;
+    width: 70px;
+}
+.panels li a {
+    display: block;
+    padding: 5px 10px;
+    background: #FF400D;
+    color: darkblue;
+    text-decoration: none;
+}
+
+.panels li a:hover {
+    color: #fff;
+}
+
+.ddpanelcontent .selected .close-button {
+
+    display: block;
+
+}
+.ddpanelcontent {
+    background: #f6a828;
+    position: absolute;
+    top: 0;
+
+
+}
+.ddpanelcontent p {
+    background: #fff;
+    padding: 20px;
+
+}
+.ddpanelcontent .close-button {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    top: 20px;
+    font-size:25px;
+    /*display: none;*/
+    z-index: 100;
+    cursor: pointer;
+}
+
+.ddpanelcontent .selected .close-button {
+    display: block;
+}
+.ddpanelcontent .selected {
+
+}
